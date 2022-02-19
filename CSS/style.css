@@ -1,0 +1,14 @@
+body {
+	max-width: 1440;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-left: 184.1px;
+	margin-right: 186px;
+}
+.nav--link {
+	margin-left: 24.5px;
+	margin-right: 24.5px;
+}
