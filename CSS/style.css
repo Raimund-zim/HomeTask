@@ -5,7 +5,6 @@ body {
 	margin-right: auto;
 }
 .header {
-	position: absolute;
 	display: flex;
 	justify-content: space-between;
 	overflow: visible;
@@ -21,7 +20,7 @@ body {
 .nav__link {
 	display: inline-block;
 	margin: 14px 24.5px 26px 24.5px;
-	font-family: DM Sans;
+	font-family: DM Sans, sens-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 15px;
@@ -76,17 +75,15 @@ body {
 
 .hero {
 	display: inline-flex;
-	width: 1146px;
-	height: 644px;
-	margin: 190px 100px 0 184px;
+	justify-content: space-around;
+	margin-right: 140px;
 }
 
 .hero__text1 {
-	position: absolute;
 	height: 231px;
 	width: 462px;
 	margin-top: 92px;
-
+	margin-left: 184px;
 	font-family: DM Sans;
 	font-style: normal;
 	font-weight: bold;
@@ -96,11 +93,10 @@ body {
 	color: #19191b;
 }
 .hero__text2 {
-	position: absolute;
 	height: 90px;
-	width: 459px;
-	margin-top: 353px;
-
+	width: 444px;
+	margin-top: 30px;
+	margin-left: 184px;
 	font-family: Mulish, sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -110,12 +106,14 @@ body {
 	color: #696871;
 }
 .hero__image {
-	margin: 0px 30px 0px 536px;
+	margin-left: 74px;
+}
+.links {
+	display: inline-flex;
+	margin-top: 50px;
+	margin-left: 184px;
 }
 .hero__link1 {
-	position: absolute;
-	margin-top: 493px;
-
 	font-family: DM sans, sans-serif;
 	height: 60px;
 	width: 211px;
@@ -124,7 +122,7 @@ body {
 	border: none;
 	cursor: pointer;
 
-	font-family: DM Sans;
+	font-family: DM Sans, sens-serif;
 	font-style: normal;
 	font-size: 17px;
 	line-height: 22px;
@@ -132,9 +130,8 @@ body {
 	letter-spacing: 0.531474px;
 	color: #ffffff;
 }
-.down--arrow {
-	position: absolute;
-	margin: 493px 0 0 251px;
+.down__arrow {
+	margin-left: 30px;
 }
 
 /* Коментарий исключительно для Пул реквеста*/
