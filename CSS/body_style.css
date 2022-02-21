@@ -1,0 +1,15 @@
+.banner {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1510px;
+	height: 1026px;
+	background: url("../img/image.png");
+}
+.banner__content {
+	display: flex;
+	width: 1170px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: aqua;
+}
