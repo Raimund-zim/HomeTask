@@ -1,0 +1,100 @@
+.tabs__page {
+	width: 1170px;
+	height: 540px;
+	margin: 99px auto 0 auto;
+}
+.tab__group {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	top: 1px;
+	z-index: 2;
+}
+.tab {
+	height: 38px;
+	width: 201px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 38px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #333333;
+}
+.tab:hover {
+	height: 36px;
+	width: 199px;
+	cursor: pointer;
+	border: 1px solid #c6cbcd;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.tab__content {
+	position: static;
+	width: 1170px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	background: url(../img/Rectangle\ 111.png) right no-repeat;
+	border: 1px solid #c6cbcd;
+	z-index: 1;
+}
+.tab__content > div:first-child {
+	width: 570px;
+	height: 124px;
+	margin-left: 100px;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 41px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+.tab__content > div:nth-child(2) {
+	width: 570px;
+	height: 210px;
+	margin: 27px 500px 27px 100px;
+	display: flex;
+	flex-direction: column;
+
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	align-items: center;
+}
+.download__button2 {
+	height: 58px;
+	width: 270px;
+	margin-left: 100px;
+	border: none;
+	background: #ec7979;
+	cursor: pointer;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+	color: #ffffff;
+}
+.download__button2:hover {
+	background: #ab4949;
+}
+.download__button2:active {
+	background: #ec7979;
+	box-shadow: inset 0px 0px 10px #ab4949;
+}
