@@ -1,7 +1,8 @@
-.benefits {
+.headers {
 	display: flex;
 	width: 1170px;
 	height: 665px;
+	margin-top: 100px;
 	flex-direction: column;
 
 	margin: 0 auto;
@@ -12,7 +13,7 @@
 	border: 1px solid #ec7979;
 	margin: 40px auto 0;
 }
-.benefits > h2 {
+.headers > h2 {
 	display: block;
 	align-items: center;
 	margin: 15 auto;
@@ -28,7 +29,7 @@
 	color: #000000;
 }
 
-.benefits h5 {
+.headers h5 {
 	margin: 40px 0 110px 0;
 	font-family: "Raleway", sans-serif;
 	font-style: normal;

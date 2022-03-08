@@ -1,7 +1,11 @@
 @import url(../CSS/benefits.css);
+@import url(../CSS/price.css);
+@import url(../CSS/reviews.css);
+@import url(../CSS/stylish.css);
+@import url(../CSS/contact.css);
+@import url(../CSS/social.css);
 
 body {
 	display: flex;
 	flex-direction: column;
-	margin: 15 auto;
 }
