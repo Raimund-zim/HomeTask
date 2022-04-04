@@ -1,0 +1,113 @@
+@import "./varibles.scss";
+.about__us {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 74.125rem;
+	margin: 2.625rem auto 6.75rem;
+	background-color: $usual_white;
+}
+.we__do {
+	max-width: 73.1125rem;
+	height: 5rem;
+	@include h2_style;
+	font-size: 1.875rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $black;
+}
+.story__about {
+	margin: 0 auto 1.5rem;
+	height: 5.0625rem;
+	@include h4_style;
+	font-size: 2.25rem;
+	text-transform: uppercase;
+	text-align: center;
+}
+.story__text > p {
+	display: flex;
+	align-items: center;
+	max-width: 74.125rem;
+	max-height: 7.375rem;
+	@include h5_style;
+	padding: 1.4375rem 0.5rem;
+	font-weight: 500;
+	line-height: 2;
+	text-align: center;
+}
+.about__pictures {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 2.625rem;
+}
+.st_img {
+	width: 23.125rem;
+	height: 21.125rem;
+	
+}
+.about__pictures > div:first-child {
+	background-color: $cyan;
+}
+.tower_1 {
+	background: url(../IMG/tower_1.png);
+}
+.tower_2 {
+	background: url(../IMG/tower_2.png);
+}
+.super__team {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+	width: 0%;
+	height: 0%;
+	bottom: 15px;
+	right: 15px;
+	background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+.st_img:hover .super__team {
+	width: 100%;
+	height: 100%;
+}
+.team__text {
+	padding-top: 1.875rem;
+	@include h5_style;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: $usual_white;
+}
+
+.lines {
+	@include line;
+	background-color: $tomato;
+	margin-bottom: 5.5rem;
+}
+@media screen and (max-width: 1130px) {
+	.st_img {
+		margin-bottom: 1rem;
+	}
+	
+}
+@media screen and (max-width: 400px) {
+	.st_img {
+		width: 18rem;
+		height: 16.125rem;
+	}
+	.st_img:hover .super__team {
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 30%;
+		top: 70%;
+		bottom: 0;
+	right: 0;
+		img {
+			display: none;
+		}
+	}
+}
