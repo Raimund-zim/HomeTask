@@ -68,7 +68,7 @@ if (userAge > 18) {
 }
 
 /* task7 */
-/* travel()
+travel()
 function travel() {
 	let wayToRide = prompt('В какую сторону света вы хотели бы отправиться?');
 	switch (wayToRide) {
@@ -90,7 +90,7 @@ function travel() {
 			travel();
 			break;
 	}
-} */
+}
 
 /* advanced task1 */
 let name1 = 'пОлИнА нАбЕрЕжНаЯ'
