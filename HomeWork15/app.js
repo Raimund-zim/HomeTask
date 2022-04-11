@@ -59,10 +59,10 @@ console.log('Variable: numVar have type: ' + typeof numVar);
 console.log('Variable: boolVar have type: ' + typeof boolVar);
 
 /* task7 */
-/* let yourName = prompt('Укажите ваше имя');
+let yourName = prompt('Укажите ваше имя');
 let yourAge = prompt('Укажите ваш возраст');
 console.log('User name: ' + yourName);
-console.log('User age: ' + yourAge); */
+console.log('User age: ' + yourAge);
 
 /* advanced task1 */
 let first = 4;
@@ -81,4 +81,4 @@ let codeWord3 = "огурцы";
 let codeWord4 = "липкие";
 let codeWord5 = "?!";
 let chiper = codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1] + codeWord5[1]
-console.log(chiper)
+console.log(chiper) 
