@@ -1,0 +1,96 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 73.125rem;
+  max-height: 42.6875;
+}
+
+.work__with {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  margin: 0 auto;
+  font-family: "Kaushan Script", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  color: #2d3033;
+  font-size: 1.875rem;
+}
+
+.amazing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  margin: 0 auto 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #2d3033;
+  font-size: 2.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.lines {
+  width: 10.625rem;
+  height: 0.25rem;
+  margin: 0 auto;
+  background-color: #f38281;
+  margin-bottom: 5.5rem;
+}
+
+.service {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 35rem;
+  margin-top: 5rem;
+}
+
+.item_s {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  width: 33%;
+}
+.item_s img {
+  width: 4.375rem;
+  height: 4.375rem;
+  padding-right: 1.875rem;
+}
+.item_s div {
+  display: flex;
+  flex-direction: column;
+}
+.item_s div h6 {
+  height: 4.375rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  font-size: 1.5rem;
+  line-height: 4.375rem;
+  text-transform: uppercase;
+}
+.item_s div p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  padding: 0.5rem 0;
+}
+
+@media screen and (max-width: 840px) {
+  .item_s {
+    width: 100%;
+  }
+}/*# sourceMappingURL=services.css.map */

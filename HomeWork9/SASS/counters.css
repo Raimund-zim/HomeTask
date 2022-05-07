@@ -1,0 +1,47 @@
+.counters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-bottom: 2.625rem;
+  background-color: #95e1d3;
+  text-align: center;
+}
+
+.some__counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  width: 15%;
+  height: 100%;
+  outline: 0.0625rem solid #ffffff;
+}
+.some__counter span {
+  margin: 0 auto 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  font-size: 4rem;
+  color: #ffffff;
+}
+.some__counter p {
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.875rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 840px) {
+  .some__counter {
+    width: 9rem;
+    height: 9rem;
+    outline: none;
+    border-bottom: 0.0625rem solid #ffffff;
+  }
+}/*# sourceMappingURL=counters.css.map */

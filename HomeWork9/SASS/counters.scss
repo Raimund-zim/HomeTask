@@ -1,0 +1,40 @@
+@import "./varibles.scss";
+.counters {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 100%;
+	margin-bottom: 2.625rem;
+	background-color: $cyan;
+	text-align: center;
+}
+.some__counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2rem 0;
+	width: 15%;
+	height: 100%;
+	outline: 0.0625rem solid $usual_white;
+	span {
+		margin: 0 auto 1.5rem;
+		@include h3_style;
+		font-size: 4rem;
+		color: $usual_white;
+	}
+	p {
+		margin: 0 auto;
+		@include h3_style;
+		font-size: 1.5rem;
+		color: $usual_white;
+	}
+}
+@media screen and (max-width: 840px) {
+	.some__counter {
+		width: 9rem;
+		height: 9rem;
+		outline: none;
+		border-bottom: 0.0625rem solid $usual_white;
+	}
+}

@@ -1,14 +1,12 @@
 body {
 	width: 1510px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 .dark {
 	position: absolute;
 	width: 1510px;
 	height: 1026px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	z-index: -1;
 	background-color: rgba(0, 0, 0, 0.5);
 }
@@ -20,8 +18,5 @@ body {
 }
 .banner {
 	margin-bottom: 0;
-	margin-left: auto;
-	margin-right: auto;
-
-	margin: 0 0 0 0;
+	margin: 0;
 }

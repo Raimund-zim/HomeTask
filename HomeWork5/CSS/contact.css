@@ -1,0 +1,76 @@
+.contact__us > .headers > h5 {
+	margin-bottom: 30px;
+}
+.contact__us {
+	display: flex;
+	flex-direction: column;
+	width: 1170px;
+	height: 622px;
+	margin: 18px auto 50px;
+}
+.send__mes {
+	display: flex;
+}
+
+.input__place {
+	width: 571px;
+	height: 38px;
+	margin: 42.5px 16.5px;
+	border-bottom: 1px solid #bdbdbd;
+}
+.input__place > input::placeholder,
+textarea {
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	resize: none;
+	width: 500px;
+	height: 195px;
+	border: none;
+}
+.input__place > input,
+textarea {
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	align-items: center;
+	color: #bdbdbd;
+	border: 0px;
+}
+.massage > form > .input__place {
+	width: 500px;
+	height: 201px;
+}
+.butn {
+	margin: 0 auto;
+}
+
+.send__button {
+	height: 58px;
+	width: 370px;
+	cursor: pointer;
+	background: #ec7979;
+	border: none;
+	padding: 0;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 20px;
+	align-items: center;
+	text-align: center;
+
+	color: #ffffff;
+}
+
+.send__button:hover {
+	background-color: #ab4949;
+}
+.send__button:active {
+	background-color: #ec7979;
+	box-shadow: 0 0 10px #333333 inset;
+}
