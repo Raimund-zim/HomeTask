@@ -1,0 +1,52 @@
+$tomato: #f38281;
+$sand: #f9efcf;
+$orange: #f4bf87;
+$cyan: #95e1d3;
+$black: #2d3033;
+$whitef5: #f5f5f5;
+$whitef8: #f8f8f8;
+$gray: #c6cbcd;
+$usual_white: #ffffff;
+
+@mixin h1_style {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 9rem;
+}
+@mixin h2_style {
+	font-family: "Kaushan Script", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 4rem;
+}
+@mixin h3_style {
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.875rem;
+}
+@mixin h4_style {
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+@mixin h5_style {
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.125rem;
+}
+@mixin h6_style {
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.8125rem;
+}
+
+@mixin line {
+	width: 10.625rem;
+	height: 0.25rem;
+	margin: 0 auto;
+}

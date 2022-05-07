@@ -1,0 +1,1 @@
+{"mappings":"AACA;EACC;EACA;ECOA;EACA;EACA;EACA;EDRA,kBCFM","sources":["SASS/main_page.scss","SASS/varibles.scss","SASS/style.scss"],"sourcesContent":[null,null,"@import \"./varibles.scss\";\r\n@import \"./main_page.scss\";\r\n"],"names":[],"version":3,"file":"index.39df4f4c.css.map","sourceRoot":"/__parcel_source_root/"}

@@ -1,0 +1,47 @@
+.axure {
+	width: 1510px;
+	height: 442px;
+	margin: 32px auto;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/background_2.png");
+}
+.axure > .headers {
+	margin-top: 55px;
+}
+.axure > .headers > h2 {
+	color: white;
+}
+.axure > .headers > h5 {
+	margin-bottom: 73px;
+	color: white;
+}
+.axure > .headers > .line {
+	margin-top: 20px;
+	border: 1px solid #ffffff;
+}
+.headers > form {
+	margin: 0 auto;
+}
+.download__button {
+	height: 58px;
+	width: 270px;
+	background-color: transparent;
+	border: 2px #ffffff solid;
+	cursor: pointer;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 25px;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+	color: #ffffff;
+}
+.download__button:hover {
+	border: 2px solid #ec7979;
+	color: #ec7979;
+}
+.download__button:active {
+	background: #ab4949;
+	border: 2px solid #ab4949;
+}

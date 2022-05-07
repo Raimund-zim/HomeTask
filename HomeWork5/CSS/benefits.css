@@ -1,0 +1,108 @@
+.headers {
+	display: flex;
+	width: 1170px;
+	height: 665px;
+	margin-top: 100px;
+	flex-direction: column;
+
+	margin: 0 auto;
+}
+.line {
+	width: 170px;
+	height: 0px;
+	border: 1px solid #ec7979;
+	margin: 40px auto 0;
+}
+.headers > h2 {
+	display: block;
+	align-items: center;
+	margin: 15 auto;
+
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.headers h5 {
+	margin: 40px 0 110px 0;
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	align-items: center;
+	text-align: center;
+	color: #86878b;
+}
+.cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.card > div {
+	display: block;
+	width: 92px;
+	height: 92px;
+	margin: 0 auto;
+	border: 1px solid #ec7979;
+	border-radius: 50%;
+}
+
+.item1 img {
+	position: relative;
+	top: 9px;
+	left: 9px;
+}
+.item2 img {
+	position: relative;
+	top: 23px;
+	left: 13px;
+}
+.item3 img {
+	position: relative;
+	top: 13px;
+	left: 24px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.card h4 {
+	display: block;
+	width: 369px;
+	height: 100px;
+	margin: 0;
+
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 100px;
+	align-items: center;
+	text-align: center;
+	text-transform: capitalize;
+
+	color: #000000;
+}
+.card h5 {
+	width: 370px;
+	height: 105;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+}

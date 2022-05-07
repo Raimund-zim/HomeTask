@@ -3,9 +3,7 @@
 	flex-direction: row;
 	width: 1170px;
 	height: 100px;
-	margin-top: 208px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top: 208px auto 0 auto;
 }
 
 .axit__info {

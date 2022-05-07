@@ -1,0 +1,78 @@
+@import "./varibles.scss";
+.services {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 73.125rem;
+	max-height: 42.6875;
+}
+.work__with {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 5rem;
+	margin: 0 auto;
+	@include h2_style;
+	color: $black;
+	font-size: 1.875rem;
+}
+.amazing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 5rem;
+	margin: 0 auto 1.5rem;
+	@include h4_style;
+	color: $black;
+	font-size: 2.25rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+.lines {
+	@include line;
+	background-color: $tomato;
+	margin-bottom: 5.5rem;
+}
+.service {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 35rem;
+	margin-top: 5rem;
+}
+.item_s {
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	width: 33%;
+	img {
+		width: 4.375rem;
+		height: 4.375rem;
+		padding-right: 1.875rem;
+	}
+	div {
+		display: flex;
+		flex-direction: column;
+
+		h6 {
+			height: 4.375rem;
+			@include h6_style;
+			font-size: 1.5rem;
+			line-height: 4.375rem;
+			text-transform: uppercase;
+		}
+		p {
+			@include h5_style;
+			padding: 0.5rem 0;
+		}
+	}
+}
+@media screen and (max-width: 840px) {
+	.item_s {
+		width: 100%;
+	}
+}

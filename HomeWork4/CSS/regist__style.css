@@ -11,8 +11,7 @@
 .free__trial {
 	height: 90px;
 	width: 367px;
-	margin-left: 53px;
-	margin-right: 50px;
+	margin: 0 50px 0 53px;
 	font-family: "Open Sans", sans-serif;
 	font-style: normal;
 	font-weight: bold;
@@ -22,7 +21,7 @@
 	text-align: center;
 	text-transform: uppercase;
 
-	color: #333333;
+	color: #bdbdbd;
 }
 .red {
 	color: #ec7979;
@@ -30,15 +29,13 @@
 .input__block {
 	width: 370px;
 
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 }
 
 .input__place {
 	width: 370px;
 	height: 38px;
-	margin-top: 16.5px;
-	margin-bottom: 16.5px;
+	margin: 0 16.5px;
 	border-bottom: 1px solid #bdbdbd;
 }
 .input__place > input::placeholder {
@@ -68,8 +65,8 @@
 	background: #ec7979;
 	border: none;
 	border-radius: 0px 0px 10px 10px;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0;
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: 600;

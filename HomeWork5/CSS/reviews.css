@@ -1,0 +1,77 @@
+.reviews > h2 {
+	margin-top: 70px;
+}
+.reviews > h5 {
+	margin-bottom: 70px;
+}
+.review__items {
+	display: flex;
+	justify-content: center;
+}
+.review__card {
+	display: flex;
+	flex-direction: column;
+	width: 370px;
+	margin: 0 15px;
+}
+.words {
+	display: flex;
+	align-items: center;
+	width: 370px;
+	height: 180px;
+	border-radius: 10px;
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	background: #e2e2e2;
+	color: #86878b;
+}
+.words > p {
+	padding: 0 10px;
+	text-align: center;
+}
+.treangle {
+	width: 0px;
+	margin: 0 0 46px 70px;
+	border: 20px solid transparent;
+	border-top: 20px solid #e2e2e2;
+}
+.person {
+	display: flex;
+}
+.person > img {
+	width: 70px;
+	height: 70px;
+}
+.person__name {
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+}
+.person__name > h4 {
+	display: flex;
+	align-items: center;
+	margin: 0 30px;
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 50px;
+	text-transform: capitalize;
+	color: #000000;
+}
+.person__name > h5 {
+	margin: 0 30px;
+	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}

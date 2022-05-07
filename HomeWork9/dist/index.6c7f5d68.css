@@ -1,0 +1,116 @@
+.about__us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 74.125rem;
+  margin: 2.625rem auto 6.75rem;
+  background-color: #ffffff;
+}
+
+.we__do {
+  max-width: 73.1125rem;
+  height: 5rem;
+  font-family: "Kaushan Script", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  font-size: 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d3033;
+}
+
+.story__about {
+  margin: 0 auto 1.5rem;
+  height: 5.0625rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+}
+
+.story__text > p {
+  display: flex;
+  align-items: center;
+  max-width: 74.125rem;
+  max-height: 7.375rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  padding: 1.4375rem 0;
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+}
+
+.about__pictures {
+  max-width: 73.125rem;
+  display: flex;
+  margin-top: 2.625rem;
+}
+
+.st_img {
+  width: 23.125rem;
+  height: 21.125rem;
+  margin: 0 0.9375rem;
+}
+
+.about__pictures > div:first-child {
+  background-color: #95e1d3;
+}
+
+.tower_1 {
+  background: url("tower_1.990960ed.png");
+}
+
+.tower_2 {
+  background: url("tower_2.fa2f705d.png");
+}
+
+.super__team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 0%;
+  height: 0%;
+  bottom: 15px;
+  right: 15px;
+  background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+}
+
+.st_img:hover .super__team {
+  width: 100%;
+  height: 100%;
+}
+
+.team__text {
+  padding-top: 1.875rem;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.lines {
+  width: 10.625rem;
+  height: 0.25rem;
+  margin: 0 auto;
+  background-color: #f38281;
+}
+
+.service__items {
+  display: flex;
+  width: 100%;
+  margin-top: 5rem;
+}
+/*# sourceMappingURL=index.6c7f5d68.css.map */
